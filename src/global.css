@@ -27,7 +27,6 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    max-height:auto;
     width: 100vw;
     background-color: var(--primaryColor);
     padding-bottom: 1rem;
