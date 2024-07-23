@@ -5,9 +5,11 @@
     font-family: sans-serif;
 } 
 
+/* usado no componente ReposList */
 .container{
     max-width: 960px;
     width: 100%;
+    height: 100vh;
     margin: 0 auto;
 }
 
@@ -16,4 +18,69 @@
     --primaryColor:#2d1c38;
     --secondaryColor: #CAD3C8;
 
+}
+
+/* input */
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primaryColor);
+    padding-bottom: 2rem;
+}
+
+
+
+.title{
+    margin: 40px;
+    font-size: 6rem;
+    color: var(--secondaryColor);
+}
+.p{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondaryColor);
+
+    
+}
+.input{
+    width: 140px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    
+    .inputContainer{
+        padding-bottom: 1rem;
+    }
+    
+    .title {
+        font-size: 3rem; 
+    }
+
+    .p {
+        font-size: 1rem; 
+    }
+
+    .input {
+        width: 20%;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 2rem; 
+    }
+
+    .p {
+        font-size: 0.9rem;
+    }
+
+    .input {
+        width: 20%; 
+    }
 }

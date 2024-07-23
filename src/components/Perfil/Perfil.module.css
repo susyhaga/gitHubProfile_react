@@ -3,8 +3,8 @@
     display: flex; /*para centralizar, foto e o nome ficarao um ao lado do outro*/
     flex-direction: column; /* para nome ficar embaixo de foto */
     align-items: center;/* centralizar o conteudo*/
-    padding:180px 0 40px;
-    margin-bottom: 80px;
+    padding:80px 0 40px;
+    margin-bottom: 40px;
 }
 .avatar{
     width: 160px;
