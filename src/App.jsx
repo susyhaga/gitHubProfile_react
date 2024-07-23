@@ -23,14 +23,12 @@ function App() {
         <p className='p'>Type a username GitHub</p>
         <input className='input' type="text" onBlur={handleInputBlur} />
       </div>
-      <div className='contentContainer'>
         {userName.length > 4 && (
           <>
             <Perfil userName={userName} className='' />
             <RepoList userName={userName} />
           </>
         )}
-      </div>
     </>
   );
 }
