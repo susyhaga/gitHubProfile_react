@@ -74,9 +74,6 @@
         font-size: 1rem; 
     }
 
-    .input {
-         width: 100px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -88,7 +85,4 @@
         font-size: 0.9rem;
     }
 
-    .input {
-        width: 100px;
-    }
 }
