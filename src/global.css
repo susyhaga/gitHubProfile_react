@@ -29,9 +29,19 @@
     height: 100vh;
     width: 100vw;
     background-color: var(--primaryColor);
-    margin-bottom:20px;
+    padding: 0rem 0; 
+    margin-bottom: 0px;
+    transition: height 0.3s ease-in-out, padding 0.3s ease-in-out; 
 }
 
+.inputContainer.fullscreen {
+    height: 100vh; /
+}
+
+.inputContainer.shrink {
+    height: auto; /* Ajuste automático da altura */
+    padding-top: 10px; 
+}
 
 
 .title{
@@ -48,15 +58,13 @@
     
 }
 .input{
-    width: 140px;
+    width: 300px;
+    height: 30px;
 }
 
 /* Estilos Responsivos */
 @media (max-width: 768px) {
     
-    .inputContainer{
-        padding-bottom: 1rem;
-    }
     
     .title {
         font-size: 3rem; 
