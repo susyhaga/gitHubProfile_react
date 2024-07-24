@@ -1,0 +1,20 @@
+.header{
+    background-color: var(--primaryColor);
+    display: flex; /*para centralizar, foto e o nome ficarao um ao lado do outro*/
+    flex-direction: column; /* para nome ficar embaixo de foto */
+    align-items: center;/* centralizar o conteudo*/
+    padding:20px;
+    margin-bottom: 10px;
+}
+.avatar{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border:2px solid var(--secondaryColor);
+}
+
+.name{
+    font-size: 18px;
+    color:var(--secondaryColor);
+    padding-top: 20px;
+}
