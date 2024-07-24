@@ -35,7 +35,7 @@ const RepoList = ({userName}) => {
             {error ? (
                 <h1>{error}</h1>
             ) : estaCarregando ? (
-                <h1>Carregando...</h1>
+                <h1>Loading...</h1>
             ) : (
                 <ul className={styles.list}>
                     {repos.map(({ id, name, language, html_url }) => (
