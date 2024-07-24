@@ -1,8 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I developed this responsive project using the React framework (or library...nobody knows). 
 
-Currently, two official plugins are available:
+It's a GitHub Profile Finder where users can type a username to find a specific profile. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+If this profile does not exist, the user will see a "USER NOT FOUND" message. 
+
+If the profile exists, a list of repositories will be loaded so that the user can view the information and access the URLs.
