@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import styles from './ReposList.module.css';
+import loading from '../../assets/log.gif'
 
 const RepoList = ({userName}) => {
     const [repos, setRepos] = useState([]);
@@ -35,7 +36,10 @@ const RepoList = ({userName}) => {
             {error ? (
                 <h1>{error}</h1>
             ) : estaCarregando ? (
-                <h1>Loading...</h1>
+            <div className={styles.loading}>
+            <h1>Loading </h1>
+            <img src={loading} alt="" />
+            </div>
             ) : (
                 <ul className={styles.list}>
                     {repos.map(({ id, name, language, html_url }) => (
