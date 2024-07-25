@@ -18,3 +18,6 @@ React
 
 # Fetch
 GitHub API
+
+#  package.json
+npm run dev
